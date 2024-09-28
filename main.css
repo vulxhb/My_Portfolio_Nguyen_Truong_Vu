@@ -162,6 +162,25 @@ body {
     .navbar_icons {
         display: none;
     }
+
+}
+
+@media screen and (max-width:550px) {
+    #banner .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile img{
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .portfolio-content{
+        order: 1;
+    }
 }
 
 /* Phần banner chứa tiêu đề và thông tin cá nhân */
